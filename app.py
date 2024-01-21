@@ -70,7 +70,9 @@ test="""
 <html><head></head>
     <body>
         <h2>sample report</h2>
-        <iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZTQ2NDU4NGMtN2E3MS00ZTViLWI3NDgtMGNlYjJkNDUzNjhlIiwidCI6IjAzMWEzYmJjLWNmN2MtNGUyYi05NmVjLTg2NzU1NTU0MGExYyJ9" frameborder="0" allowFullScreen="true"></iframe>
+        <iframe src="http://localhost/Reports/powerbi/Firstdashboard?rs:embed=true"></iframe>
+        
+        
 </body></html>
 """
 st.markdown(test, unsafe_allow_html=True)
