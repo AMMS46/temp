@@ -70,7 +70,7 @@ test="""
 <html><head></head>
     <body>
         <h2>sample report</h2>
-        <iframe src="http://localhost/Reports/powerbi/Firstdashboard?rs:embed=true"></iframe>
+        <iframe title="Report Section" width="800" height="373.5" src="http://localhost/Reports/powerbi/Firstdashboard?rs:embed=true"></iframe>
         
         
 </body></html>
